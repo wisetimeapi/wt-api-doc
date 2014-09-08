@@ -5,7 +5,6 @@ Host: https://wisetime.io
 WiseTime API allows direct access to the time data created by the WiseTime platform.
 
 # Group User
-Notes related resources of the **User API**
 
 ## User [/api/user/{userId}]
 A single User object with all its details
@@ -13,7 +12,7 @@ A single User object with all its details
 + Parameters
     + userId (required, number, `1`) ... Numeric `userId` of the User to fetch the information for.
 
-### Retrieve a Note [GET]
+### Retrieve a User [GET]
 + Response 200 (application/json)
 
     + Header
@@ -24,5 +23,3 @@ A single User object with all its details
 
             { "id": 2, "title": "Pick-up posters from post-office" }
 
-### Remove a Note [DELETE]
-+ Response 204
