@@ -10,16 +10,13 @@ WiseTime API allows direct access to the time data created by the WiseTime platf
 A single User object with all its details
 
 + Parameters
-    + userId (required, number, `1`) ... Numeric `userId` of the User to fetch the information for.
+    + userId (required, number, `xhhd6329sj`) ... Numeric `userId` of the User to fetch the information for.
 
 ### Retrieve a User [GET]
 + Response 200 (application/json)
 
-    + Header
-
-            X-My-Header: The Value
-
     + Body
 
-            { "id": 2, "title": "Pick-up posters from post-office" }
+            { "userId": 2, "firstName": "Max", , "lastName": "Mustermann", email : "max@mustermann.com" }
+
 
